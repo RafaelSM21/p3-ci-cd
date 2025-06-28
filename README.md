@@ -85,6 +85,8 @@ describe('calcularTaxaVitoria', () => {
 
 Com esses testes, garantimos que a função se comporta corretamente em casos comuns e extremos.
 
+![imagem](./assets/teste.png)
+
 ---
 
 ## 📋 4. Logging com Firebase
@@ -111,6 +113,8 @@ console.error('[ERROR] Falha:', err);
 ```
 
 > Os logs são visualizados no **Firebase Console > Functions > Logs**
+
+![imagem](./assets/debug.png)
 
 ---
 
@@ -169,7 +173,5 @@ jobs:
 ```
 
 > Toda vez que a branch `main` recebe uma alteração, o Firebase faz o deploy automaticamente.
----
 
-Se quiser, posso gerar esse conteúdo como um arquivo `.md` para você baixar ou subir direto no GitHub. Deseja que eu crie o arquivo para você agora?
-```
+![imagem](./assets/deploy.png)
